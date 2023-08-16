@@ -1,0 +1,120 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#EEEDEF;
+	font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width:1000px;
+	margin:0px auto;
+background-color:#E5F9F5;
+	padding:20px;
+}
+
+.profile-image{
+	width:100px;
+	height:120px;
+	border:3px solid black;
+	border-radius:50%;
+	float:left;
+}
+
+.header-vio{
+	float:left;
+	padding:30px;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	color:#11999e;	
+}
+.header-contract{
+	float:right;
+	padding:30px;
+}
+.header-contract a{
+	text-decoration:none;
+	color:teal;
+	font-weight:bold;
+}
+
+.header-contract a:hover{
+	color:tomato;
+	text-decoration:underline;
+}
+
+.div-clear{
+	clear:both;
+}
+
+hr{
+	border: solid black 3px;
+	width:100%;
+	margin:20px auto;
+	border-bottom:none;
+	
+	
+}
+
+/*------------------
+Personnal section start
+--------------------------*/
+#personal-section{}
+
+.content{
+	margin-bottom:30px;
+}
+
+.left-div{
+	float:left;
+	
+	width:30%;
+}
+
+.right-div{float:left;
+	
+	width:70%;
+	}
+	
+	/*----Eaducation Section start------*/
+	
+	.eadu-left{
+		float:left;
+		width:45%;
+		
+	}
+	
+	.eadu-right{
+		float:right;
+		width:45%;
+		
+	}
+	
+	/*---Footer section start----*/
+	
+	.botom-footer{
+		text-align:center;
+		background-color:black;
+	padding:10px;
+		
+	}
+	
+	
+	.botom-footer a{
+		text-decoration:none;
+	margin:20px;
+	color:white;
+		
+	}
+	.botom-footer p{
+		color:white;
+		margin-top:20px;
+		
+	}
+	
